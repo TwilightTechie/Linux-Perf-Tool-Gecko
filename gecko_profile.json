@@ -1,0 +1,6362 @@
+{
+  "meta": {
+    "interval": 1,
+    "processType": 0,
+    "product": "x86_64 GNU/Linux",
+    "stackwalk": 1,
+    "debug": 0,
+    "gcpoison": 0,
+    "asyncstack": 1,
+    "startTime": 1582925.635,
+    "shutdownTime": null,
+    "version": 24,
+    "presymbolicated": true,
+    "categories": [
+      {
+        "name": "User",
+        "color": "yellow",
+        "subcategories": [
+          "Other"
+        ]
+      },
+      {
+        "name": "Kernel",
+        "color": "orange",
+        "subcategories": [
+          "Other"
+        ]
+      }
+    ],
+    "markerSchema": []
+  },
+  "libs": [],
+  "threads": [
+    {
+      "tid": 12797,
+      "pid": 12797,
+      "name": "perf",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": [
+          [
+            28,
+            1582925.635,
+            0
+          ],
+          [
+            28,
+            1582925.651,
+            0
+          ],
+          [
+            28,
+            1582925.657,
+            0
+          ],
+          [
+            28,
+            1582925.662,
+            0
+          ],
+          [
+            28,
+            1582925.717,
+            0
+          ],
+          [
+            28,
+            1582925.728,
+            0
+          ],
+          [
+            28,
+            1582925.734,
+            0
+          ],
+          [
+            28,
+            1582925.738,
+            0
+          ],
+          [
+            28,
+            1582925.773,
+            0
+          ],
+          [
+            28,
+            1582925.781,
+            0
+          ],
+          [
+            28,
+            1582925.784,
+            0
+          ],
+          [
+            28,
+            1582925.787,
+            0
+          ],
+          [
+            28,
+            1582925.819,
+            0
+          ],
+          [
+            28,
+            1582925.826,
+            0
+          ],
+          [
+            28,
+            1582925.83,
+            0
+          ],
+          [
+            28,
+            1582925.833,
+            0
+          ],
+          [
+            28,
+            1582926.597,
+            0
+          ],
+          [
+            28,
+            1582926.606,
+            0
+          ],
+          [
+            28,
+            1582926.61,
+            0
+          ],
+          [
+            28,
+            1582926.615,
+            0
+          ],
+          [
+            28,
+            1582926.658,
+            0
+          ],
+          [
+            28,
+            1582926.666,
+            0
+          ],
+          [
+            28,
+            1582926.671,
+            0
+          ],
+          [
+            28,
+            1582926.676,
+            0
+          ],
+          [
+            28,
+            1582926.705,
+            0
+          ],
+          [
+            28,
+            1582926.71,
+            0
+          ],
+          [
+            28,
+            1582926.713,
+            0
+          ],
+          [
+            28,
+            1582926.716,
+            0
+          ],
+          [
+            28,
+            1582926.744,
+            0
+          ],
+          [
+            28,
+            1582926.752,
+            0
+          ],
+          [
+            28,
+            1582926.757,
+            0
+          ],
+          [
+            28,
+            1582926.761,
+            0
+          ],
+          [
+            37,
+            1582926.787,
+            0
+          ]
+        ]
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": [
+          [
+            0,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            1,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            2,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            3,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            4,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            5,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            6,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            7,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            8,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            9,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            10,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            11,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            12,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            13,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            14,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            15,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            16,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            17,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            18,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            19,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            20,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            21,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            22,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            23,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            24,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            25,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            26,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            27,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            28,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            29,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            30,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            31,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            32,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            33,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            34,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            35,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ]
+        ]
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": [
+          [
+            null,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            27,
+            28
+          ],
+          [
+            null,
+            29
+          ],
+          [
+            29,
+            11
+          ],
+          [
+            30,
+            12
+          ],
+          [
+            31,
+            30
+          ],
+          [
+            32,
+            31
+          ],
+          [
+            33,
+            32
+          ],
+          [
+            34,
+            33
+          ],
+          [
+            35,
+            34
+          ],
+          [
+            36,
+            35
+          ]
+        ]
+      },
+      "stringTable": [
+        "__libc_start_call_main (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "main (in /tmp/perf/perf)",
+        "run_argv (in /tmp/perf/perf)",
+        "handle_internal_command (in /tmp/perf/perf)",
+        "run_builtin (in /tmp/perf/perf)",
+        "cmd_record (in /tmp/perf/perf)",
+        "__cmd_record (in /tmp/perf/perf)",
+        "__evlist__enable (in /tmp/perf/perf)",
+        "perf_evsel__enable_cpu (in /tmp/perf/perf)",
+        "perf_evsel__run_ioctl (in /tmp/perf/perf)",
+        "__GI___ioctl (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "entry_SYSCALL_64_after_hwframe (in [kernel.kallsyms])",
+        "do_syscall_64 (in [kernel.kallsyms])",
+        "__x64_sys_ioctl (in [kernel.kallsyms])",
+        "perf_ioctl (in [kernel.kallsyms])",
+        "_perf_ioctl (in [kernel.kallsyms])",
+        "perf_event_for_each_child (in [kernel.kallsyms])",
+        "_perf_event_enable (in [kernel.kallsyms])",
+        "event_function_call (in [kernel.kallsyms])",
+        "smp_call_function_single (in [kernel.kallsyms])",
+        "generic_exec_single (in [kernel.kallsyms])",
+        "remote_function (in [kernel.kallsyms])",
+        "event_function (in [kernel.kallsyms])",
+        "__perf_event_enable (in [kernel.kallsyms])",
+        "ctx_resched (in [kernel.kallsyms])",
+        "perf_ctx_enable (in [kernel.kallsyms])",
+        "x86_pmu_enable (in [kernel.kallsyms])",
+        "intel_pmu_enable_all (in [kernel.kallsyms])",
+        "native_write_msr (in [kernel.kallsyms])",
+        "__libc_open64 (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "__x64_sys_openat (in [kernel.kallsyms])",
+        "do_sys_openat2 (in [kernel.kallsyms])",
+        "do_filp_open (in [kernel.kallsyms])",
+        "path_openat (in [kernel.kallsyms])",
+        "ima_file_check (in [kernel.kallsyms])",
+        "security_current_getsecid_subj (in [kernel.kallsyms])"
+      ],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 17,
+      "pid": 17,
+      "name": "migration/0",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": [
+          [
+            4,
+            1582925.679,
+            0
+          ]
+        ]
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": [
+          [
+            0,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            1,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            2,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            3,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            4,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ]
+        ]
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": [
+          [
+            null,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "stringTable": [
+        "ret_from_fork (in [kernel.kallsyms])",
+        "kthread (in [kernel.kallsyms])",
+        "smpboot_thread_fn (in [kernel.kallsyms])",
+        "cpu_stopper_thread (in [kernel.kallsyms])",
+        "migration_cpu_stop (in [kernel.kallsyms])"
+      ],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 22,
+      "pid": 22,
+      "name": "migration/1",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": [
+          [
+            7,
+            1582925.76,
+            0
+          ]
+        ]
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": [
+          [
+            0,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            1,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            2,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            3,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            4,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            5,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            6,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            7,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ]
+        ]
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": [
+          [
+            null,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "stringTable": [
+        "ret_from_fork (in [kernel.kallsyms])",
+        "kthread (in [kernel.kallsyms])",
+        "smpboot_thread_fn (in [kernel.kallsyms])",
+        "cpu_stopper_thread (in [kernel.kallsyms])",
+        "migration_cpu_stop (in [kernel.kallsyms])",
+        "move_queued_task (in [kernel.kallsyms])",
+        "check_preempt_curr (in [kernel.kallsyms])",
+        "resched_curr (in [kernel.kallsyms])"
+      ],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 2727,
+      "pid": 2712,
+      "name": "SPICE Worker",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": []
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": []
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": []
+      },
+      "stringTable": [],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 0,
+      "pid": 0,
+      "name": "swapper",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": [
+          [
+            5,
+            1582926.639,
+            0
+          ],
+          [
+            22,
+            1582952.354,
+            0
+          ],
+          [
+            32,
+            1582960.896,
+            0
+          ],
+          [
+            39,
+            1583101.7,
+            0
+          ],
+          [
+            63,
+            1583124.377,
+            0
+          ],
+          [
+            66,
+            1583132.35,
+            0
+          ],
+          [
+            74,
+            1583132.385,
+            0
+          ],
+          [
+            32,
+            1583138.197,
+            0
+          ],
+          [
+            76,
+            1583144.374,
+            0
+          ],
+          [
+            32,
+            1583153.137,
+            0
+          ],
+          [
+            38,
+            1583153.333,
+            0
+          ],
+          [
+            77,
+            1583167.534,
+            0
+          ],
+          [
+            78,
+            1583173.19,
+            0
+          ],
+          [
+            32,
+            1583181.467,
+            0
+          ],
+          [
+            32,
+            1583203.046,
+            0
+          ],
+          [
+            77,
+            1583211.786,
+            0
+          ],
+          [
+            78,
+            1583212.342,
+            0
+          ],
+          [
+            32,
+            1583225.441,
+            0
+          ],
+          [
+            78,
+            1583228.059,
+            0
+          ],
+          [
+            32,
+            1583233.719,
+            0
+          ],
+          [
+            32,
+            1583247.497,
+            0
+          ],
+          [
+            80,
+            1583256.344,
+            0
+          ],
+          [
+            5,
+            1583256.6,
+            0
+          ],
+          [
+            78,
+            1583272.348,
+            0
+          ],
+          [
+            32,
+            1583276.857,
+            0
+          ],
+          [
+            32,
+            1583285.07,
+            0
+          ],
+          [
+            32,
+            1583298.836,
+            0
+          ],
+          [
+            32,
+            1583306.963,
+            0
+          ],
+          [
+            81,
+            1583320.423,
+            0
+          ],
+          [
+            78,
+            1583323.286,
+            0
+          ],
+          [
+            32,
+            1583329.233,
+            0
+          ],
+          [
+            84,
+            1583330.923,
+            0
+          ],
+          [
+            89,
+            1583337.739,
+            0
+          ],
+          [
+            32,
+            1583350.54,
+            0
+          ],
+          [
+            32,
+            1583358.824,
+            0
+          ],
+          [
+            90,
+            1583370.313,
+            0
+          ],
+          [
+            91,
+            1583376.458,
+            0
+          ],
+          [
+            66,
+            1583380.296,
+            0
+          ],
+          [
+            93,
+            1583388.441,
+            0
+          ],
+          [
+            77,
+            1583388.578,
+            0
+          ],
+          [
+            32,
+            1583402.094,
+            0
+          ],
+          [
+            90,
+            1583403.199,
+            0
+          ],
+          [
+            98,
+            1583409.7,
+            0
+          ],
+          [
+            99,
+            1583413.873,
+            0
+          ],
+          [
+            32,
+            1583417.777,
+            0
+          ],
+          [
+            100,
+            1583426.13,
+            0
+          ],
+          [
+            78,
+            1583428.896,
+            0
+          ]
+        ]
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": [
+          [
+            0,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            1,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            2,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            3,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            4,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            5,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            6,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            7,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            8,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            9,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            10,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            11,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            12,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            13,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            14,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            15,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            16,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            17,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            18,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            19,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            20,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            21,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            22,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            23,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            24,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            25,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            26,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            27,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            28,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            29,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            30,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            31,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            32,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            33,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            34,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            35,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            36,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            37,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            38,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            39,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            40,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            41,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            42,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            43,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            44,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            45,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            46,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            47,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            48,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            49,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            50,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            51,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            52,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            53,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            54,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            55,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            56,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            57,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            58,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            59,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            60,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            61,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            62,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            63,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            64,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            65,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            66,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            67,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            68,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            69,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            70,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            71,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            72,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            73,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            74,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            75,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            76,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ]
+        ]
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": [
+          [
+            null,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            18
+          ],
+          [
+            18,
+            19
+          ],
+          [
+            19,
+            20
+          ],
+          [
+            20,
+            21
+          ],
+          [
+            21,
+            22
+          ],
+          [
+            8,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            24,
+            25
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            26,
+            27
+          ],
+          [
+            27,
+            28
+          ],
+          [
+            28,
+            29
+          ],
+          [
+            29,
+            30
+          ],
+          [
+            30,
+            31
+          ],
+          [
+            31,
+            32
+          ],
+          [
+            3,
+            33
+          ],
+          [
+            33,
+            34
+          ],
+          [
+            34,
+            35
+          ],
+          [
+            35,
+            36
+          ],
+          [
+            36,
+            37
+          ],
+          [
+            37,
+            38
+          ],
+          [
+            38,
+            39
+          ],
+          [
+            0,
+            40
+          ],
+          [
+            40,
+            41
+          ],
+          [
+            41,
+            42
+          ],
+          [
+            42,
+            43
+          ],
+          [
+            43,
+            44
+          ],
+          [
+            44,
+            2
+          ],
+          [
+            45,
+            3
+          ],
+          [
+            46,
+            6
+          ],
+          [
+            47,
+            7
+          ],
+          [
+            48,
+            8
+          ],
+          [
+            49,
+            9
+          ],
+          [
+            50,
+            10
+          ],
+          [
+            51,
+            11
+          ],
+          [
+            52,
+            12
+          ],
+          [
+            53,
+            13
+          ],
+          [
+            54,
+            14
+          ],
+          [
+            55,
+            15
+          ],
+          [
+            56,
+            16
+          ],
+          [
+            57,
+            17
+          ],
+          [
+            58,
+            18
+          ],
+          [
+            59,
+            19
+          ],
+          [
+            60,
+            20
+          ],
+          [
+            61,
+            21
+          ],
+          [
+            62,
+            22
+          ],
+          [
+            8,
+            45
+          ],
+          [
+            64,
+            46
+          ],
+          [
+            65,
+            47
+          ],
+          [
+            10,
+            48
+          ],
+          [
+            67,
+            49
+          ],
+          [
+            68,
+            50
+          ],
+          [
+            69,
+            51
+          ],
+          [
+            70,
+            52
+          ],
+          [
+            71,
+            53
+          ],
+          [
+            72,
+            54
+          ],
+          [
+            73,
+            55
+          ],
+          [
+            3,
+            56
+          ],
+          [
+            75,
+            57
+          ],
+          [
+            27,
+            58
+          ],
+          [
+            8,
+            59
+          ],
+          [
+            70,
+            60
+          ],
+          [
+            79,
+            61
+          ],
+          [
+            12,
+            62
+          ],
+          [
+            8,
+            63
+          ],
+          [
+            82,
+            64
+          ],
+          [
+            83,
+            65
+          ],
+          [
+            3,
+            66
+          ],
+          [
+            85,
+            67
+          ],
+          [
+            86,
+            68
+          ],
+          [
+            87,
+            69
+          ],
+          [
+            88,
+            70
+          ],
+          [
+            49,
+            59
+          ],
+          [
+            70,
+            53
+          ],
+          [
+            46,
+            66
+          ],
+          [
+            92,
+            67
+          ],
+          [
+            5,
+            71
+          ],
+          [
+            94,
+            72
+          ],
+          [
+            95,
+            73
+          ],
+          [
+            96,
+            74
+          ],
+          [
+            97,
+            75
+          ],
+          [
+            86,
+            39
+          ],
+          [
+            null,
+            76
+          ]
+        ]
+      },
+      "stringTable": [
+        "__pfx_verify_cpu (in [kernel.kallsyms])",
+        "start_secondary (in [kernel.kallsyms])",
+        "cpu_startup_entry (in [kernel.kallsyms])",
+        "do_idle (in [kernel.kallsyms])",
+        "cpuidle_select (in [kernel.kallsyms])",
+        "menu_select (in [kernel.kallsyms])",
+        "call_cpuidle (in [kernel.kallsyms])",
+        "cpuidle_enter (in [kernel.kallsyms])",
+        "cpuidle_enter_state (in [kernel.kallsyms])",
+        "asm_sysvec_apic_timer_interrupt (in [kernel.kallsyms])",
+        "sysvec_apic_timer_interrupt (in [kernel.kallsyms])",
+        "__sysvec_apic_timer_interrupt (in [kernel.kallsyms])",
+        "hrtimer_interrupt (in [kernel.kallsyms])",
+        "__hrtimer_run_queues (in [kernel.kallsyms])",
+        "tick_sched_timer (in [kernel.kallsyms])",
+        "tick_sched_handle (in [kernel.kallsyms])",
+        "update_process_times (in [kernel.kallsyms])",
+        "scheduler_tick (in [kernel.kallsyms])",
+        "perf_event_task_tick (in [kernel.kallsyms])",
+        "perf_adjust_freq_unthr_context (in [kernel.kallsyms])",
+        "x86_pmu_enable (in [kernel.kallsyms])",
+        "intel_pmu_enable_all (in [kernel.kallsyms])",
+        "native_write_msr (in [kernel.kallsyms])",
+        "asm_common_interrupt (in [kernel.kallsyms])",
+        "common_interrupt (in [kernel.kallsyms])",
+        "__common_interrupt (in [kernel.kallsyms])",
+        "handle_fasteoi_irq (in [kernel.kallsyms])",
+        "handle_irq_event (in [kernel.kallsyms])",
+        "__handle_irq_event_percpu (in [kernel.kallsyms])",
+        "i2c_dw_isr (in [kernel.kallsyms])",
+        "regmap_read (in [kernel.kallsyms])",
+        "_regmap_read (in [kernel.kallsyms])",
+        "dw_reg_read (in [kernel.kallsyms])",
+        "flush_smp_call_function_queue (in [kernel.kallsyms])",
+        "__flush_smp_call_function_queue (in [kernel.kallsyms])",
+        "sched_ttwu_pending (in [kernel.kallsyms])",
+        "ttwu_do_activate (in [kernel.kallsyms])",
+        "enqueue_task (in [kernel.kallsyms])",
+        "psi_task_change (in [kernel.kallsyms])",
+        "psi_group_change (in [kernel.kallsyms])",
+        "x86_64_start_kernel (in [kernel.kallsyms])",
+        "x86_64_start_reservations (in [kernel.kallsyms])",
+        "start_kernel (in [kernel.kallsyms])",
+        "arch_call_rest_init (in [kernel.kallsyms])",
+        "rest_init (in [kernel.kallsyms])",
+        "local_clock (in [kernel.kallsyms])",
+        "sched_clock (in [kernel.kallsyms])",
+        "native_sched_clock (in [kernel.kallsyms])",
+        "irq_exit_rcu (in [kernel.kallsyms])",
+        "__irq_exit_rcu (in [kernel.kallsyms])",
+        "__do_softirq (in [kernel.kallsyms])",
+        "run_rebalance_domains (in [kernel.kallsyms])",
+        "rebalance_domains (in [kernel.kallsyms])",
+        "load_balance (in [kernel.kallsyms])",
+        "find_busiest_group (in [kernel.kallsyms])",
+        "update_sd_lb_stats.constprop.0 (in [kernel.kallsyms])",
+        "tick_nohz_idle_stop_tick (in [kernel.kallsyms])",
+        "need_update (in [kernel.kallsyms])",
+        "idma64_irq (in [idma64])",
+        "intel_idle (in [kernel.kallsyms])",
+        "update_blocked_averages (in [kernel.kallsyms])",
+        "__update_load_avg_cfs_rq (in [kernel.kallsyms])",
+        "__remove_hrtimer (in [kernel.kallsyms])",
+        "asm_sysvec_thermal (in [kernel.kallsyms])",
+        "sysvec_thermal (in [kernel.kallsyms])",
+        "irq_enter_rcu (in [kernel.kallsyms])",
+        "schedule_idle (in [kernel.kallsyms])",
+        "__schedule (in [kernel.kallsyms])",
+        "pick_next_task_fair (in [kernel.kallsyms])",
+        "set_next_entity (in [kernel.kallsyms])",
+        "update_load_avg (in [kernel.kallsyms])",
+        "tick_nohz_get_sleep_length (in [kernel.kallsyms])",
+        "tick_nohz_next_event (in [kernel.kallsyms])",
+        "get_next_timer_interrupt (in [kernel.kallsyms])",
+        "hrtimer_get_next_event (in [kernel.kallsyms])",
+        "_raw_spin_lock_irqsave (in [kernel.kallsyms])",
+        "__switch_to_asm (in [kernel.kallsyms])"
+      ],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 2725,
+      "pid": 2712,
+      "name": "CPU 3/KVM",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": [
+          [
+            17,
+            1582926.699,
+            0
+          ]
+        ]
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": [
+          [
+            0,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            1,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            2,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            3,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            4,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            5,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            6,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            7,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            8,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            9,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            10,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            11,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            12,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            13,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            14,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            15,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            16,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            17,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ]
+        ]
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": [
+          [
+            null,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            16,
+            17
+          ]
+        ]
+      },
+      "stringTable": [
+        "g_free (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)",
+        "__GI___ioctl (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "entry_SYSCALL_64_after_hwframe (in [kernel.kallsyms])",
+        "do_syscall_64 (in [kernel.kallsyms])",
+        "__x64_sys_ioctl (in [kernel.kallsyms])",
+        "kvm_vcpu_ioctl (in [kvm])",
+        "kvm_arch_vcpu_ioctl_run (in [kvm])",
+        "vcpu_run (in [kvm])",
+        "xfer_to_guest_mode_handle_work (in [kernel.kallsyms])",
+        "schedule (in [kernel.kallsyms])",
+        "__schedule (in [kernel.kallsyms])",
+        "finish_task_switch.isra.0 (in [kernel.kallsyms])",
+        "kvm_sched_in (in [kvm])",
+        "kvm_arch_vcpu_load (in [kvm])",
+        "read_pkru (in [kvm])",
+        "_static_cpu_has (in [kvm])",
+        "vmx_vcpu_load (in [kvm_intel])",
+        "vmx_vcpu_load_vmcs (in [kvm_intel])"
+      ],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 2712,
+      "pid": 2712,
+      "name": "qemu-system-x86",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": [
+          [
+            6,
+            1583106.429,
+            0
+          ],
+          [
+            24,
+            1583316.413,
+            0
+          ]
+        ]
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": [
+          [
+            0,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            1,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            2,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            3,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            4,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            5,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            6,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            7,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            8,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            9,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            10,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            11,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            12,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            13,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            14,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            15,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            16,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            17,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            18,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            19,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            20,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            21,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ]
+        ]
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": [
+          [
+            null,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            null,
+            7
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            2
+          ],
+          [
+            10,
+            8
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            13,
+            11
+          ],
+          [
+            14,
+            12
+          ],
+          [
+            15,
+            13
+          ],
+          [
+            16,
+            14
+          ],
+          [
+            17,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            19,
+            17
+          ],
+          [
+            20,
+            18
+          ],
+          [
+            21,
+            19
+          ],
+          [
+            22,
+            20
+          ],
+          [
+            23,
+            21
+          ]
+        ]
+      },
+      "stringTable": [
+        "__ppoll (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "entry_SYSCALL_64_after_hwframe (in [kernel.kallsyms])",
+        "do_syscall_64 (in [kernel.kallsyms])",
+        "__x64_sys_ppoll (in [kernel.kallsyms])",
+        "do_sys_poll (in [kernel.kallsyms])",
+        "eventfd_poll (in [kernel.kallsyms])",
+        "__pollwait (in [kernel.kallsyms])",
+        "__GI___libc_write (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "__x64_sys_write (in [kernel.kallsyms])",
+        "ksys_write (in [kernel.kallsyms])",
+        "vfs_write (in [kernel.kallsyms])",
+        "sock_write_iter (in [kernel.kallsyms])",
+        "unix_stream_sendmsg (in [kernel.kallsyms])",
+        "sock_alloc_send_pskb (in [kernel.kallsyms])",
+        "alloc_skb_with_frags (in [kernel.kallsyms])",
+        "__alloc_skb (in [kernel.kallsyms])",
+        "kmem_cache_alloc_node (in [kernel.kallsyms])",
+        "obj_cgroup_charge (in [kernel.kallsyms])",
+        "try_charge_memcg (in [kernel.kallsyms])",
+        "refill_stock (in [kernel.kallsyms])",
+        "__refill_stock (in [kernel.kallsyms])",
+        "drain_stock (in [kernel.kallsyms])"
+      ],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 2263,
+      "pid": 2263,
+      "name": "kwin_x11",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": [
+          [
+            0,
+            1583179.648,
+            0
+          ],
+          [
+            1,
+            1583190.221,
+            0
+          ],
+          [
+            2,
+            1583245.119,
+            0
+          ],
+          [
+            4,
+            1583264.932,
+            0
+          ],
+          [
+            5,
+            1583305.513,
+            0
+          ],
+          [
+            6,
+            1583370.149,
+            0
+          ]
+        ]
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": [
+          [
+            0,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            1,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            2,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            3,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            4,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            5,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            6,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ]
+        ]
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": [
+          [
+            null,
+            0
+          ],
+          [
+            null,
+            1
+          ],
+          [
+            null,
+            2
+          ],
+          [
+            null,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            null,
+            6
+          ]
+        ]
+      },
+      "stringTable": [
+        "QRegion::~QRegion() (in /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3)",
+        "QXcbConnection::handleXcbEvent(xcb_generic_event_t*) (in /usr/lib/x86_64-linux-gnu/libQt5XcbQpa.so.5.15.3)",
+        "QRegion::subtracted(QRegion const&) const (in /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3)",
+        "KWin::SurfaceItemX11::qt_metacast(char const*) (in /usr/lib/x86_64-linux-gnu/libkwin.so.5.24.7)",
+        "KWin::SurfacePixmapX11::isValid() const (in /usr/lib/x86_64-linux-gnu/libkwin.so.5.24.7)",
+        "KWin::Platform::isPerScreenRenderingEnabled() const (in /usr/lib/x86_64-linux-gnu/libkwin.so.5.24.7)",
+        "__GI___ioctl (in /usr/lib/x86_64-linux-gnu/libc.so.6)"
+      ],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 1101,
+      "pid": 1101,
+      "name": "Xorg",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": [
+          [
+            10,
+            1583112.471,
+            0
+          ],
+          [
+            22,
+            1583160.549,
+            0
+          ],
+          [
+            32,
+            1583179.276,
+            0
+          ],
+          [
+            36,
+            1583212.086,
+            0
+          ],
+          [
+            50,
+            1583272.119,
+            0
+          ],
+          [
+            51,
+            1583290.067,
+            0
+          ],
+          [
+            55,
+            1583305.603,
+            0
+          ],
+          [
+            56,
+            1583337.842,
+            0
+          ],
+          [
+            57,
+            1583356.696,
+            0
+          ],
+          [
+            54,
+            1583370.285,
+            0
+          ],
+          [
+            58,
+            1583389.575,
+            0
+          ],
+          [
+            65,
+            1583402.169,
+            0
+          ],
+          [
+            66,
+            1583411.431,
+            0
+          ]
+        ]
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": [
+          [
+            0,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            1,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            2,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            3,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            4,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            5,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            6,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            7,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            8,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            9,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            10,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            11,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            12,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            13,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            14,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            15,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            16,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            17,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            18,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            19,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            20,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            21,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            22,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            23,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            24,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            25,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            26,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            27,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            28,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            29,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            30,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            31,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            32,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            33,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            34,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            35,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            36,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            37,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            38,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            39,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            40,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            41,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            42,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            43,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            44,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            45,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            46,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            47,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            48,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            49,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            50,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            51,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            52,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            53,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            54,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            55,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            56,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            57,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            58,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            59,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ]
+        ]
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": [
+          [
+            null,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            null,
+            11
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            13,
+            3
+          ],
+          [
+            14,
+            12
+          ],
+          [
+            15,
+            13
+          ],
+          [
+            16,
+            14
+          ],
+          [
+            17,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            19,
+            17
+          ],
+          [
+            20,
+            18
+          ],
+          [
+            21,
+            19
+          ],
+          [
+            null,
+            20
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            24,
+            3
+          ],
+          [
+            25,
+            21
+          ],
+          [
+            26,
+            22
+          ],
+          [
+            27,
+            23
+          ],
+          [
+            28,
+            24
+          ],
+          [
+            29,
+            25
+          ],
+          [
+            30,
+            26
+          ],
+          [
+            31,
+            27
+          ],
+          [
+            21,
+            28
+          ],
+          [
+            33,
+            29
+          ],
+          [
+            34,
+            30
+          ],
+          [
+            35,
+            31
+          ],
+          [
+            null,
+            32
+          ],
+          [
+            37,
+            2
+          ],
+          [
+            38,
+            3
+          ],
+          [
+            39,
+            33
+          ],
+          [
+            40,
+            34
+          ],
+          [
+            41,
+            35
+          ],
+          [
+            42,
+            36
+          ],
+          [
+            43,
+            37
+          ],
+          [
+            44,
+            38
+          ],
+          [
+            45,
+            39
+          ],
+          [
+            46,
+            40
+          ],
+          [
+            47,
+            41
+          ],
+          [
+            48,
+            42
+          ],
+          [
+            49,
+            43
+          ],
+          [
+            null,
+            44
+          ],
+          [
+            31,
+            45
+          ],
+          [
+            52,
+            46
+          ],
+          [
+            53,
+            47
+          ],
+          [
+            54,
+            48
+          ],
+          [
+            20,
+            49
+          ],
+          [
+            32,
+            50
+          ],
+          [
+            null,
+            51
+          ],
+          [
+            9,
+            52
+          ],
+          [
+            59,
+            53
+          ],
+          [
+            60,
+            54
+          ],
+          [
+            61,
+            55
+          ],
+          [
+            62,
+            56
+          ],
+          [
+            63,
+            57
+          ],
+          [
+            64,
+            58
+          ],
+          [
+            null,
+            59
+          ]
+        ]
+      },
+      "stringTable": [
+        "__libc_recvmsg (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "__recvmsg_syscall (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "entry_SYSCALL_64_after_hwframe (in [kernel.kallsyms])",
+        "do_syscall_64 (in [kernel.kallsyms])",
+        "__x64_sys_recvmsg (in [kernel.kallsyms])",
+        "__sys_recvmsg (in [kernel.kallsyms])",
+        "___sys_recvmsg (in [kernel.kallsyms])",
+        "____sys_recvmsg (in [kernel.kallsyms])",
+        "sock_recvmsg (in [kernel.kallsyms])",
+        "unix_stream_recvmsg (in [kernel.kallsyms])",
+        "_raw_spin_lock (in [kernel.kallsyms])",
+        "__GI___writev (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "__x64_sys_writev (in [kernel.kallsyms])",
+        "do_writev (in [kernel.kallsyms])",
+        "vfs_writev (in [kernel.kallsyms])",
+        "do_iter_write (in [kernel.kallsyms])",
+        "do_iter_readv_writev (in [kernel.kallsyms])",
+        "sock_write_iter (in [kernel.kallsyms])",
+        "unix_stream_sendmsg (in [kernel.kallsyms])",
+        "unix_passcred_enabled (in [kernel.kallsyms])",
+        "epoll_wait (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "__x64_sys_epoll_wait (in [kernel.kallsyms])",
+        "do_epoll_wait (in [kernel.kallsyms])",
+        "schedule_hrtimeout_range (in [kernel.kallsyms])",
+        "schedule_hrtimeout_range_clock (in [kernel.kallsyms])",
+        "schedule (in [kernel.kallsyms])",
+        "__schedule (in [kernel.kallsyms])",
+        "psi_task_switch (in [kernel.kallsyms])",
+        "sock_alloc_send_pskb (in [kernel.kallsyms])",
+        "alloc_skb_with_frags (in [kernel.kallsyms])",
+        "__alloc_skb (in [kernel.kallsyms])",
+        "memset_orig (in [kernel.kallsyms])",
+        "__GI___ioctl (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "__x64_sys_ioctl (in [kernel.kallsyms])",
+        "drm_ioctl (in [drm])",
+        "drm_ioctl_kernel (in [drm])",
+        "i915_gem_create_ioctl (in [i915])",
+        "__i915_gem_object_create_user (in [i915])",
+        "__i915_gem_object_create_user_ext (in [i915])",
+        "shmem_object_init (in [i915])",
+        "__create_shmem (in [i915])",
+        "shmem_file_setup_with_mnt (in [kernel.kallsyms])",
+        "__shmem_file_setup (in [kernel.kallsyms])",
+        "strlen (in [kernel.kallsyms])",
+        "xf86ScreenToScrn (in /usr/lib/xorg/Xorg)",
+        "dequeue_task (in [kernel.kallsyms])",
+        "dequeue_task_fair (in [kernel.kallsyms])",
+        "dequeue_entity (in [kernel.kallsyms])",
+        "update_load_avg (in [kernel.kallsyms])",
+        "apparmor_socket_sendmsg (in [kernel.kallsyms])",
+        "psi_group_change (in [kernel.kallsyms])",
+        "__GI___pthread_disable_asynccancel (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "unix_stream_read_generic (in [kernel.kallsyms])",
+        "unix_stream_read_actor (in [kernel.kallsyms])",
+        "skb_copy_datagram_iter (in [kernel.kallsyms])",
+        "__skb_datagram_iter (in [kernel.kallsyms])",
+        "simple_copy_to_iter (in [kernel.kallsyms])",
+        "_copy_to_iter (in [kernel.kallsyms])",
+        "copyout (in [kernel.kallsyms])",
+        "GetMaster (in /usr/lib/xorg/Xorg)"
+      ],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 2272,
+      "pid": 2263,
+      "name": "QXcbEventQueue",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": [
+          [
+            0,
+            1583123.467,
+            0
+          ],
+          [
+            1,
+            1583352.529,
+            0
+          ]
+        ]
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": [
+          [
+            0,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            1,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ]
+        ]
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": [
+          [
+            null,
+            0
+          ],
+          [
+            null,
+            1
+          ]
+        ]
+      },
+      "stringTable": [
+        "QWaitCondition::wakeOne() (in /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3)",
+        "__GI___libc_malloc (in /usr/lib/x86_64-linux-gnu/libc.so.6)"
+      ],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 2527,
+      "pid": 2527,
+      "name": "konsole",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": [
+          [
+            11,
+            1583145.701,
+            0
+          ],
+          [
+            12,
+            1583145.992,
+            0
+          ],
+          [
+            25,
+            1583241.661,
+            0
+          ],
+          [
+            26,
+            1583271.429,
+            0
+          ],
+          [
+            30,
+            1583305.288,
+            0
+          ],
+          [
+            31,
+            1583389.648,
+            0
+          ],
+          [
+            32,
+            1583402.124,
+            0
+          ]
+        ]
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": [
+          [
+            0,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            1,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            2,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            3,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            4,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            5,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            6,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            7,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            8,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            9,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            10,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            11,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            12,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            13,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            14,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            15,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            16,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            17,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            18,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            19,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            20,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            21,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            22,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            23,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            24,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            25,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            26,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            27,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            28,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            29,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ]
+        ]
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": [
+          [
+            null,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            null,
+            11
+          ],
+          [
+            null,
+            12
+          ],
+          [
+            13,
+            13
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            16,
+            2
+          ],
+          [
+            17,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            19,
+            17
+          ],
+          [
+            20,
+            18
+          ],
+          [
+            21,
+            19
+          ],
+          [
+            22,
+            20
+          ],
+          [
+            23,
+            21
+          ],
+          [
+            24,
+            22
+          ],
+          [
+            null,
+            23
+          ],
+          [
+            null,
+            24
+          ],
+          [
+            27,
+            25
+          ],
+          [
+            28,
+            26
+          ],
+          [
+            29,
+            27
+          ],
+          [
+            null,
+            28
+          ],
+          [
+            null,
+            29
+          ]
+        ]
+      },
+      "stringTable": [
+        "__GI___writev (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "entry_SYSCALL_64_after_hwframe (in [kernel.kallsyms])",
+        "do_syscall_64 (in [kernel.kallsyms])",
+        "__x64_sys_writev (in [kernel.kallsyms])",
+        "do_writev (in [kernel.kallsyms])",
+        "vfs_writev (in [kernel.kallsyms])",
+        "do_iter_write (in [kernel.kallsyms])",
+        "rw_verify_area (in [kernel.kallsyms])",
+        "security_file_permission (in [kernel.kallsyms])",
+        "apparmor_file_permission (in [kernel.kallsyms])",
+        "aa_file_perm (in [kernel.kallsyms])",
+        "QFontPrivate::engineForScript(int) const (in /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3)",
+        "__GI___futex_abstimed_wait_cancelable64 (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "__futex_abstimed_wait_common (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "__futex_abstimed_wait_common64 (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "__x64_sys_futex (in [kernel.kallsyms])",
+        "do_futex (in [kernel.kallsyms])",
+        "futex_wait (in [kernel.kallsyms])",
+        "futex_wait_queue (in [kernel.kallsyms])",
+        "schedule (in [kernel.kallsyms])",
+        "__schedule (in [kernel.kallsyms])",
+        "pick_next_task_fair (in [kernel.kallsyms])",
+        "newidle_balance (in [kernel.kallsyms])",
+        "g_main_context_check (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)",
+        "QScrollBar::paintEvent(QPaintEvent*) (in /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3)",
+        "Kvantum::Style::drawComplexControl(QStyle::ComplexControl, QStyleOptionComplex const*, QPainter*, QWidget const*) const (in /usr/lib/x86_64-linux-gnu/qt5/plugins/styles/libkvantum.so)",
+        "Kvantum::Style::drawControl(QStyle::ControlElement, QStyleOption const*, QPainter*, QWidget const*) const (in /usr/lib/x86_64-linux-gnu/qt5/plugins/styles/libkvantum.so)",
+        "Kvantum::Style::renderFrame(QPainter*, QRect const&, Kvantum::frame_spec, QString const&, int, int, int, int, int, bool, bool, bool) const (in /usr/lib/x86_64-linux-gnu/qt5/plugins/styles/libkvantum.so)",
+        "QWidgetPrivate::childAt_helper(QPoint const&, bool) const (in /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3)",
+        "FT_Load_Sfnt_Table (in /usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1)"
+      ],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 700,
+      "pid": 700,
+      "name": "irq/180-MSFT000",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": [
+          [
+            7,
+            1583204.627,
+            0
+          ],
+          [
+            7,
+            1583345.007,
+            0
+          ]
+        ]
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": [
+          [
+            0,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            1,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            2,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            3,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            4,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            5,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            6,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            7,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ]
+        ]
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": [
+          [
+            null,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "stringTable": [
+        "ret_from_fork (in [kernel.kallsyms])",
+        "kthread (in [kernel.kallsyms])",
+        "irq_thread (in [kernel.kallsyms])",
+        "irq_thread_fn (in [kernel.kallsyms])",
+        "irq_finalize_oneshot.part.0 (in [kernel.kallsyms])",
+        "unmask_threaded_irq (in [kernel.kallsyms])",
+        "intel_gpio_irq_unmask (in [kernel.kallsyms])",
+        "intel_gpio_irq_mask_unmask (in [kernel.kallsyms])"
+      ],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 1565,
+      "pid": 1101,
+      "name": "InputThread",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": [
+          [
+            6,
+            1583256.461,
+            0
+          ],
+          [
+            10,
+            1583345.045,
+            0
+          ],
+          [
+            11,
+            1583396.544,
+            0
+          ]
+        ]
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": [
+          [
+            0,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            1,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            2,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            3,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            4,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            5,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            6,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            7,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            8,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            9,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ]
+        ]
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": [
+          [
+            null,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            null,
+            7
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            null,
+            9
+          ]
+        ]
+      },
+      "stringTable": [
+        "epoll_wait (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "entry_SYSCALL_64_after_hwframe (in [kernel.kallsyms])",
+        "do_syscall_64 (in [kernel.kallsyms])",
+        "syscall_exit_to_user_mode (in [kernel.kallsyms])",
+        "exit_to_user_mode_prepare (in [kernel.kallsyms])",
+        "switch_fpu_return (in [kernel.kallsyms])",
+        "restore_fpregs_from_fpstate (in [kernel.kallsyms])",
+        "__GI___ioctl (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "drm_ioctl (in [drm])",
+        "xf86PostMotionEventM (in /usr/lib/xorg/Xorg)"
+      ],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 2528,
+      "pid": 2527,
+      "name": "QXcbEventQueue",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": [
+          [
+            7,
+            1583337.732,
+            0
+          ]
+        ]
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": [
+          [
+            0,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ],
+          [
+            1,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            2,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            3,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            4,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            5,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            6,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          [
+            7,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ]
+        ]
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": [
+          [
+            null,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "stringTable": [
+        "__GI___poll (in /usr/lib/x86_64-linux-gnu/libc.so.6)",
+        "entry_SYSCALL_64_after_hwframe (in [kernel.kallsyms])",
+        "do_syscall_64 (in [kernel.kallsyms])",
+        "__x64_sys_poll (in [kernel.kallsyms])",
+        "do_sys_poll (in [kernel.kallsyms])",
+        "poll_freewait (in [kernel.kallsyms])",
+        "remove_wait_queue (in [kernel.kallsyms])",
+        "_raw_spin_unlock_irqrestore (in [kernel.kallsyms])"
+      ],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 12804,
+      "pid": 12798,
+      "name": "perf",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": []
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": []
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": []
+      },
+      "stringTable": [],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 2301,
+      "pid": 2263,
+      "name": "kwin_x11:gdrv0",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": []
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": []
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": []
+      },
+      "stringTable": [],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    },
+    {
+      "tid": 2317,
+      "pid": 2263,
+      "name": "vsync event mon",
+      "markers": {
+        "schema": {
+          "name": 0,
+          "startTime": 1,
+          "endTime": 2,
+          "phase": 3,
+          "category": 4,
+          "data": 5
+        },
+        "data": []
+      },
+      "samples": {
+        "schema": {
+          "stack": 0,
+          "time": 1,
+          "responsiveness": 2
+        },
+        "data": [
+          [
+            0,
+            1583406.664,
+            0
+          ]
+        ]
+      },
+      "frameTable": {
+        "schema": {
+          "location": 0,
+          "relevantForJS": 1,
+          "innerWindowID": 2,
+          "implementation": 3,
+          "optimizations": 4,
+          "line": 5,
+          "column": 6,
+          "category": 7,
+          "subcategory": 8
+        },
+        "data": [
+          [
+            0,
+            false,
+            0,
+            null,
+            null,
+            null,
+            null,
+            0,
+            null
+          ]
+        ]
+      },
+      "stackTable": {
+        "schema": {
+          "prefix": 0,
+          "frame": 1
+        },
+        "data": [
+          [
+            null,
+            0
+          ]
+        ]
+      },
+      "stringTable": [
+        "QReadWriteLock::lockForRead() (in /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3)"
+      ],
+      "registerTime": 0,
+      "unregisterTime": null,
+      "processType": "default"
+    }
+  ],
+  "processes": [],
+  "pausedRanges": []
+}

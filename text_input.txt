@@ -1,0 +1,674 @@
+perf-exec 167702/167702 108749.611682:          1 cycles: 
+	ffffffffb58b3fc6 native_write_msr+0x6 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5812ca5 intel_pmu_enable_all+0x15 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb580726b x86_pmu_enable+0x1ab (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5b33a27 perf_ctx_enable+0x37 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5b3d2ab ctx_resched+0xcb (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5b42b40 perf_event_exec+0x370 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7efec begin_new_exec+0x6ac (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5d068bf load_elf_binary+0x2df (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7dcb5 bprm_execve+0x285 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7e278 do_execveat_common.isra.0+0x198 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7e5d7 __x64_sys_execve+0x37 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb6869809 do_syscall_64+0x59 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb6a000aa entry_SYSCALL_64+0xaa (/lib/modules/6.4.0-rc1/build/vmlinux)
+	    7f8389aeb0fb [unknown] ([unknown])
+
+perf-exec 167702/167702 108749.611691:          1 cycles: 
+	ffffffffb58b3fc6 native_write_msr+0x6 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5812ca5 intel_pmu_enable_all+0x15 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb580726b x86_pmu_enable+0x1ab (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5b33a27 perf_ctx_enable+0x37 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5b3d2ab ctx_resched+0xcb (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5b42b40 perf_event_exec+0x370 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7efec begin_new_exec+0x6ac (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5d068bf load_elf_binary+0x2df (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7dcb5 bprm_execve+0x285 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7e278 do_execveat_common.isra.0+0x198 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7e5d7 __x64_sys_execve+0x37 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb6869809 do_syscall_64+0x59 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb6a000aa entry_SYSCALL_64+0xaa (/lib/modules/6.4.0-rc1/build/vmlinux)
+	    7f8389aeb0fb [unknown] ([unknown])
+
+perf-exec 167702/167702 108749.611693:        322 cycles: 
+	ffffffffb58b3fc6 native_write_msr+0x6 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5812ca5 intel_pmu_enable_all+0x15 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb580726b x86_pmu_enable+0x1ab (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5b33a27 perf_ctx_enable+0x37 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5b3d2ab ctx_resched+0xcb (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5b42b40 perf_event_exec+0x370 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7efec begin_new_exec+0x6ac (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5d068bf load_elf_binary+0x2df (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7dcb5 bprm_execve+0x285 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7e278 do_execveat_common.isra.0+0x198 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7e5d7 __x64_sys_execve+0x37 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb6869809 do_syscall_64+0x59 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb6a000aa entry_SYSCALL_64+0xaa (/lib/modules/6.4.0-rc1/build/vmlinux)
+	    7f8389aeb0fb [unknown] ([unknown])
+
+perf-exec 167702/167702 108749.611695:     226152 cycles: 
+	ffffffffb58b3fc6 native_write_msr+0x6 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5812ca5 intel_pmu_enable_all+0x15 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb580726b x86_pmu_enable+0x1ab (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5b33a27 perf_ctx_enable+0x37 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5b3d2ab ctx_resched+0xcb (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5b42b40 perf_event_exec+0x370 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7efec begin_new_exec+0x6ac (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5d068bf load_elf_binary+0x2df (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7dcb5 bprm_execve+0x285 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7e278 do_execveat_common.isra.0+0x198 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7e5d7 __x64_sys_execve+0x37 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb6869809 do_syscall_64+0x59 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb6a000aa entry_SYSCALL_64+0xaa (/lib/modules/6.4.0-rc1/build/vmlinux)
+	    7f8389aeb0fb [unknown] ([unknown])
+
+perf 167702/167702 108749.611746:  174523558 cycles: 
+	ffffffffb59b08d6 __call_rcu_common.constprop.0+0xa6 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb59b0b3e call_rcu+0xe (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c74eab __fput+0x12b (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5c7507e ____fput+0xe (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb5913bce task_work_run+0x5e (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb59bfb7b exit_to_user_mode_prepare+0x16b (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb6871aca syscall_exit_to_user_mode+0x2a (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb6869819 do_syscall_64+0x69 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb6a000aa entry_SYSCALL_64+0xaa (/lib/modules/6.4.0-rc1/build/vmlinux)
+	           202b0 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+
+perf 167702/167702 108749.649203: 1363407524 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.759454:   77604821 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.776473:   64542497 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.790679:   56837363 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.803196:   53236660 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.814929:   50794697 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.826112:   49156984 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.836922:   48392538 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.847591:   47573472 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.858089:   46985241 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.868467:   46707544 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.878725:   46443920 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.888973:   46264176 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.899172:   46106052 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.909330:   46034713 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.919496:   45971967 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.929658:   45911266 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.939738:   45891986 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.949882:   45847479 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.960035:   45792341 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.970137:   45791378 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.980225:   45771734 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108749.990301:   45836364 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.000408:   45808935 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.010510:   45839628 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.020621:   45823768 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.030739:   45812841 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.040820:   45859186 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.050924:   45830036 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.061126:   45799262 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.071285:   45675623 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.081361:   45703643 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.091431:   45734490 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.101543:   45701794 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.111680:   45667182 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.121780:   45670581 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.131858:   45668545 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.141942:   45723456 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.152047:   45713469 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.162140:   45730214 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.172232:   45726966 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.182413:   45626629 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.192500:   45652485 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.202611:   45626210 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.212652:   45661888 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.222754:   45698943 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.232871:   45694900 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.242944:   45720191 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.253026:   45759208 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.263187:   45706237 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.273271:   45698716 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.283333:   45750103 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.293525:   45664433 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.303549:   45707802 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.313656:   45746897 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.323785:   45710549 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.333857:   45714913 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.343949:   45708547 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.354008:   45783879 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.364464:   45404435 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.374705:   45151073 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.384821:   45015169 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.394723:   45322640 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.404727:   45428100 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.414814:   45477805 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.424880:   45521393 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.434971:   45507816 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.445029:   45563608 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.455156:   45547204 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.465257:   45561950 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.475352:   45528884 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.485409:   45586670 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.495490:   45618543 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.505602:   45557344 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.515731:   45521911 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.525779:   45602073 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.535957:   45491169 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.546030:   45548770 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.556110:   45549194 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.566307:   45480828 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.576498:   45292703 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.586508:   45448942 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.596651:   45408744 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.606743:   45416715 cycles: 
+	          160827 noploop+0x67 (/usr/bin/perf)
+	          134159 cmd_test+0xf19 (/usr/bin/perf)
+	          160ec0 run_builtin+0x70 (/usr/bin/perf)
+	           ab759 main+0x6a9 (/usr/bin/perf)
+	           29d90 __libc_start_call_main+0x80 (/usr/lib/x86_64-linux-gnu/libc.so.6)
+
+perf 167702/167702 108750.616790:   45445083 cycles: 
+	ffffffffb5bc0430 remove_vma+0x0 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb58df3a8 __mmput+0x48 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb58df4e1 mmput+0x31 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb58eb5de do_exit+0x2ee (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb58ebfe5 do_group_exit+0x35 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb58ec098 [unknown] (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb6869809 do_syscall_64+0x59 (/lib/modules/6.4.0-rc1/build/vmlinux)
+	ffffffffb6a000aa entry_SYSCALL_64+0xaa (/lib/modules/6.4.0-rc1/build/vmlinux)
+
