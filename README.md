@@ -98,7 +98,7 @@ I'm extremely thankful to...
 
 ... Firefox Profiler team for collaboration which was invaluable. Their insights and guidance significantly contributed to my understanding of various aspect on Firefox Profiler side. We engaged in discussion through the [matrix channel](https://chat.mozilla.org/#/room/#profiler:mozilla.org)
 
-...The Linux Foundation for organizing this learning-heavy performanced packed project.
+...The Linux Foundation for organizing this learning-heavy performance-packed project.
 
 ...and finally, Google Open Source for orchestrating the GSoC program and ensuring a fruitful, fun-packed summer.
 
@@ -106,7 +106,7 @@ I'm extremely thankful to...
 The successful integration of the Gecko converter into the perf tool enhances its capabilities, allowing users to analyze and profile applications using the Firefox profiler. The addition of the profiler UI launch support and comprehensive testing further enhance the user experience and reliability of the tool. The project's outcomes significantly contribute to the usability and efficiency of the perf tool, making it a more versatile choice for performance analysis tasks.
 
 ### References
-[1]: Perf WiKi: [Perf Wiki - Firefox Profiler](https://perf.wiki.kernel.org/index.php/Tutorial#perf-script)
+[1]: Perf Wiki: [Perf Wiki - Firefox Profiler](https://perf.wiki.kernel.org/index.php/Tutorial#perf-script)
 [2]: Firefox Profiler: [official website](https://profiler.firefox.com/)
 [3]: Firefox Profiler Documentation: [details on gecko format](https://profiler.firefox.com/docs/#/)
 [4]: SimplePerf: [gecko profile generator](https://android.googlesource.com/platform/system/extras/+/149e735479e5803969d0a75b38f672c5eb183e52/simpleperf/scripts/gecko_profile_generator.py)
@@ -117,5 +117,5 @@ The successful integration of the Gecko converter into the perf tool enhances it
 - **Name:** Anup Sharma
 - **Email:** anupnewsmail@gmail.com
 - **GitHub:** [TwilightTechie](https://github.com/TwilightTechie)
-- **Twitter:**[AnupSha78798485](https://twitter.com/AnupSha78798485)
+- **Twitter:** [AnupSha78798485](https://twitter.com/AnupSha78798485)
 
